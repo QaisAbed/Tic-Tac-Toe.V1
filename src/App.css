@@ -1,0 +1,40 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  color: #61dafb;
+  letter-spacing: 2px;
+}
+
+button {
+  background: #222;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 1.5em;
+  font-size: 1.1rem;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+button:hover {
+  background: #61dafb;
+  color: #222;
+}
+
+/* 3D Canvas tweaks */
+canvas {
+  border-radius: 18px;
+  box-shadow: 0 4px 32px #0002;
+  margin-bottom: 1.5rem;
+}
+
+/* Hide old logo styles */
+.logo, .read-the-docs, .card {
+  display: none;
+}
